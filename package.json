@@ -1,9 +1,0 @@
-{
-	"name": "swagger-ui-demo",
-	"dependencies": {
-		"swagger-ui-watcher": "^2.1.12"
-	},
-	"license":"MIT",
-	"scripts": {
-	}
-}
