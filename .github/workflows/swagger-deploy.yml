@@ -6,7 +6,7 @@ jobs:
     steps:
     
     - name: Generate Swagger UI
-      uses: Legion2/swagger-ui-action@v1.1.6
+      uses: Legion2/swagger-ui-action@v1
       with:
         output: swagger-ui
         spec-file: openapi.json
