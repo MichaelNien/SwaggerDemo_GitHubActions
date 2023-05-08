@@ -6,10 +6,10 @@ jobs:
     steps:
     
     - name: Generate Swagger UI
-      uses: Legion2/swagger-ui-action@v1
+      uses: Legion2/swagger-ui-action@v1.1.6
       with:
         output: swagger-ui
-        spec-file: .config/openapi.json
+        spec-file: openapi.json
         
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
