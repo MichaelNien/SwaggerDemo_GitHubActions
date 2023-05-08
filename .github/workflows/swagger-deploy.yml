@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
-   - name: Upload openapi.json
-        uses: actions/upload-artifact@v3
-        with:
-          name: spec-file
-          path: openapi.json
+    - name: Upload openapi.json
+      uses: actions/upload-artifact@v3
+      with:
+        name: spec-file
+        path: openapi.json
           
     - name: Generate Swagger UI
       uses: Legion2/swagger-ui-action@v1.1.6
