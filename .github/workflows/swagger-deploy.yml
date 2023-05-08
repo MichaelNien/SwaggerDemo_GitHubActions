@@ -9,7 +9,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: spec-file
-        path: openapi.json
+        path: ${{ github.workspace }}/openapi.json
           
     - name: Generate Swagger UI
       uses: Legion2/swagger-ui-action@v1.1.6
