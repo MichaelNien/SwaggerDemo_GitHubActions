@@ -9,7 +9,7 @@ jobs:
       uses: Legion2/swagger-ui-action@v1
       with:
         output: swagger-ui
-        spec-file: openapi.json
+        spec-file: src/openapi.json
         version: 3
         
     - name: Deploy to GitHub Pages
