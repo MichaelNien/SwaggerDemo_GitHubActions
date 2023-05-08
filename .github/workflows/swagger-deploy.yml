@@ -1,8 +1,10 @@
 name: Build and Deploy
 on: [push]
 jobs:
-  run:
-    working-directory: .config
+  defaults:
+    run:
+        working-directory: .github
+
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
